@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+/*------------------------------------------------HEADER-------------------------------*/
+
+body {
+   font-family: "Montserrat", sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.page-light {
+   background-color: rgb(255, 221, 180);
+   padding: 50px 0;
+}
+
+.wrapper {
+   max-width: 80%;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.header {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.headerlogo {
+   border: 5px rgb(199, 153, 94) solid;
+   max-width: 120px;
+   width: 100%;
+}
+
+.headerlogo:hover{
+   cursor: pointer;
+}
+
+.nav {
+   display: flex;
+   list-style-type: none;
+   padding-left: 0;
+}
+
+.nav-item {
+   margin-left: 50px;
+}
+
+.nav-link {
+   padding: 10px 30px;
+   color: rgb(26, 26, 26);
+   text-decoration: none;
+   font-size: 18px;
+   box-sizing: border-box;
+   transition: all 500ms ease;
+}
+
+.nav-link:hover {
+   background: rgba(0, 0, 0, 0);
+   box-shadow: inset 0 0 0 3px rgb(199, 153, 94);
+   transition: 0.5s;
+}
+
+/*-------------------------------FOOTER---------------------------------*/
+
+.page-dark {
+   text-align: center;
+   background-color: rgb(29, 29, 29);
+   color: white;
+   padding: 70px 0;
+}
+
+.footer {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 30px 0;
+}
+
+.footer-logo {
+   flex: 0 0 40%;
+}
+
+.footer-nav {
+   flex: 0 0 60%;
+   display: flex;
+   justify-content: space-between;
+   color: white;
+}
+
+.footer-list {
+   list-style-type: none;
+}
+
+.footer-list-title {
+   font-size: 14px;
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+
+.footer-list-link {
+   color: rgb(173, 173, 173);
+   text-decoration: none;
+   font-size: 14px;
+}
+
+.footer-list-link:hover{
+   color: rgb(228, 228, 228);
+}
+
+.footer-list-item {
+   margin-bottom: 10px;
+}
+
+#icon{
+   margin-right: 7px;
+}
+
+/*-------------------------------MAIN---------------------------------*/
+
+.main {
+   height: 600px;
+   background-color: rgb(199, 153, 94);
+   display: flex;
+   color: white;
+}
+
+.left {
+   text-align: center;
+   margin: auto 0;
+   flex: 0 0 40%;
+}
+
+.right {
+   flex: 0 0 60%;
+}
+
+.left-title {
+   font-size: 50px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-weight: 500;
+   border: 3px solid rgb(241, 241, 241);
+   padding: 50px;
+   margin: 120px;
+}
+
+.contact-main-img {
+   float: right;
+}
+
+/*------------------------------DARK PAGE----------------------------*/
+
+.page-dark {
+   text-align: center;
+   background-color: rgb(29, 29, 29);
+   color: white;
+   padding: 50px 0;
+}
+
+.page-dark-title {
+   font-size: 30px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+/*------------------------------CONTACT INFO----------------------------*/
+
+.page-light2{
+   padding: 50px 0;
+   background-color: rgb(226, 205, 177);
+}
+
+
+.inline{
+   display: flex;
+}
+
+#map{
+   margin-left: 20px;
+   margin-top: 20px;
+   width: 100%;
+   height: 600px;
+}
+
+
+
+
+
+.contact{
+   display: flex;
+   justify-content: space-between;
+}
+
+.contact-city{
+   text-transform: uppercase;
+   font-size: 20px;
+   font-weight: 500;
+   margin-bottom: 15px;
+}
+
+.contact-limited{
+   margin-top: 20px;
+   font-size: 20px;
+   font-weight: 500;
+   margin-bottom: 10px;
+}
+
+.list{
+   list-style: none;
+   border-right: 1px solid rgb(39, 39, 39);
+}
+
+.list-item{
+   line-height: 1.5em;
+   margin-bottom: 5px;
+}
